@@ -1,0 +1,90 @@
+/* Estilos para la tarjeta */
+.tarjeta {
+  display: flex;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.tarjeta-imagen {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 10px;
+ 
+}
+.tarjeta:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s;
+  box-shadow:0 6px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.tarjeta-contenido {
+  flex: 1;
+}
+
+.tarjeta-titulo {
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+.tarjeta-descripcion {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.tarjeta-precio {
+  margin: 0;
+  font-weight: bold;
+}
+
+.boton-agregar {
+  background-color: #0f8013;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.boton-agregar:hover {
+  background-color: #32a838;
+}
+.boton-quitar {
+  background-color: #af4c4c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.boton-quitar:hover {
+  background-color: #a04545;
+}
+
+/* Estilos para el carrito */
+.carrito {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.comprar:hover{
+  color: rgb(117, 28, 201);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.comprar button{
+background-color: #1f4378;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 8px;
+}
